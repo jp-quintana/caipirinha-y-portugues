@@ -1,4 +1,4 @@
-.header {
+.header__navbar {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
 
 .header__contenedor {
@@ -51,16 +51,18 @@
   margin-top: 5rem;
   padding: 1rem 5rem; }
 
+.comienzo {
+  padding-top: 11rem; }
+
 .comienzo__titulo {
-  text-align: center;
-  margin-top: 11rem; }
+  text-align: center; }
 
 .comienzo__imagen {
   max-width: 100%;
   margin: 8rem 0rem; }
 
-.testimonios__titulo {
-  margin-top: 12rem; }
+.testimonios {
+  padding-top: 12rem; }
 
 .testimonios__cards {
   margin-top: 8rem;
@@ -93,17 +95,19 @@
     display: flex;
     justify-content: center; }
 
-.presentacion-profesor-contenedor {
-  position: relative; }
+.presentacion-profesor {
+  padding-top: 20rem; }
+  .presentacion-profesor-contenedor {
+    position: relative; }
 
 .presentacion-profesor__imagen {
   position: absolute;
   width: 40%;
   right: 0;
-  bottom: 0; }
+  top: 50;
+  transform: translateY(-50%); }
 
 .presentacion-profesor__card {
-  margin-top: 20rem;
   max-width: 60%; }
 
 .presentacion-profesor__cuerpo {
@@ -154,9 +158,11 @@
   height: 8.7rem;
   width: 8.7rem; }
 
+.tarifas {
+  padding-top: 5.5rem; }
+
 .tarifas__titulo {
-  text-align: center;
-  margin-top: 5.5rem; }
+  text-align: center; }
 
 .tarifas-contenedor {
   padding: 4rem;
@@ -218,6 +224,36 @@
   list-style-image: url("../assets/tarifas/bullet-points-2.svg");
   padding-inline-start: 1ch;
   margin-bottom: 6rem; }
+
+.sobre-nosotros {
+  padding: 5.5rem 0rem 10rem 0rem; }
+
+.sobre-nosotros__titulo {
+  text-align: center;
+  margin-bottom: 8rem; }
+
+.sobre-nosotros-contenedor {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 45% 55%; }
+
+.sobre-nosotros__presentacion {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem; }
+
+.sobre-nosotros__texto {
+  font-size: 3rem; }
+
+.nuestro-objetivo {
+  padding: 7rem 0rem; }
+
+.nuestro-objetivo__titulo {
+  margin-bottom: 4rem; }
+
+.nuestro-objetivo__texto {
+  color: #449847;
+  font-size: 3rem; }
 
 .footer {
   background: #092971;
@@ -308,3 +344,7 @@ h1, h2, h3 {
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px; }
+
+.divider-general {
+  display: block;
+  margin: 0 auto; }

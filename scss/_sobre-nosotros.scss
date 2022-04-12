@@ -1,0 +1,39 @@
+//Sobre nosotros
+.sobre-nosotros {
+  padding: 5.5rem 0rem 10rem 0rem;
+}
+
+.sobre-nosotros__titulo {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.sobre-nosotros-contenedor {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 45% 55%;
+}
+
+.sobre-nosotros__presentacion {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.sobre-nosotros__texto {
+  font-size: 3rem;
+}
+
+//Nuestro Objetivo
+.nuestro-objetivo {
+  padding: 7rem 0rem;
+}
+
+.nuestro-objetivo__titulo {
+  margin-bottom: 4rem;
+}
+
+.nuestro-objetivo__texto {
+  color: #449847;
+  font-size: 3rem;
+}

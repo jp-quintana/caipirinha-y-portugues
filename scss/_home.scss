@@ -1,7 +1,10 @@
 // Comienzo
+.comienzo {
+  padding-top: 11rem;
+
+}
 .comienzo__titulo {
   text-align: center;
-  margin-top: 11rem;
 }
 
 .comienzo__imagen {
@@ -10,8 +13,8 @@
 }
 
 // Testimonios
-.testimonios__titulo {
-  margin-top: 12rem;
+.testimonios {
+  padding-top: 12rem;
 }
 
 .testimonios__cards {
@@ -54,6 +57,8 @@
 
 // Presentación profesor
 .presentacion-profesor {
+  padding-top: 20rem;
+
   &-contenedor {
     position: relative;
   }
@@ -62,13 +67,12 @@
   position: absolute;
   width: 40%;
   right: 0;
-  bottom: 0;
+  top: 50;
+  transform: translateY(-50%);
 }
 
 .presentacion-profesor__card {
-  margin-top: 20rem;
   max-width: 60%;
-
 }
 
 .presentacion-profesor__cuerpo {
