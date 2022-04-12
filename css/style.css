@@ -90,9 +90,105 @@
     display: flex;
     justify-content: center; }
 
-.presentacion-profesor {
+.presentacion-profesor-contenedor {
   display: grid;
-  grid-template-columns: 60% 40%; }
+  grid-template-columns: 60% 40%;
+  position: relative; }
+
+.presentacion-profesor__imagen {
+  position: absolute;
+  width: 38%;
+  right: 0; }
+
+.presentacion-profesor__card {
+  margin-top: 20rem; }
+
+.presentacion-profesor__cuerpo {
+  padding: 5rem; }
+
+.presentacion-profesor__texto {
+  margin: 1.8rem 0rem 0rem 0rem; }
+
+.podcast-contenedor {
+  position: relative;
+  overflow: hidden;
+  padding: 24rem 0rem; }
+
+.podcast__imagen {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40%; }
+
+.podcast__card {
+  margin-top: 8rem;
+  background: #399F3D !important;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+  .podcast__card-contenedor {
+    max-width: 40%; }
+
+.podcast__cuerpo {
+  padding: 1.5rem 0rem 4rem 4rem; }
+
+.podcast__spotify {
+  font-size: 2.5rem; }
+
+.podcast__nombre {
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+.podcast__duracion {
+  margin-bottom: 0; }
+  .podcast__duracion-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 1rem; }
+
+.podcast__spotify-logo {
+  align-self: center;
+  height: 8.7rem;
+  width: 8.7rem; }
+
+.footer {
+  background: #092971;
+  color: #FFFFFF; }
+  .footer-contenedor {
+    display: grid;
+    grid-template-columns: 70% 30%; }
+
+.footer__sitemap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+  margin: 13rem 0rem; }
+
+.footer__titulos {
+  font-weight: 700;
+  margin-bottom: 1.5rem; }
+
+.footer__enlaces {
+  color: #FFFFFF; }
+
+.footer_redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem; }
+
+.footer__whatsapp {
+  height: 4.5rem;
+  width: 4.5rem; }
+
+.footer__facebook {
+  height: 4.5rem;
+  width: 4.5rem; }
+
+.footer__instagram {
+  height: 4.1rem;
+  width: 4.1rem; }
 
 html {
   margin: 0;
@@ -106,13 +202,16 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #000000;
+  color: #092971;
   font-weight: 400;
   font-size: 2rem;
   background-color: #FFFFFF; }
 
 a {
   text-decoration: none; }
+
+a:hover {
+  color: inherit; }
 
 ul {
   list-style-type: none; }
@@ -122,6 +221,13 @@ h2 {
   font-size: 4rem;
   font-weight: 700; }
   h2 span {
+    color: #092971; }
+
+h3 {
+  color: #449847;
+  font-size: 3rem;
+  font-weight: 700; }
+  h3 span {
     color: #092971; }
 
 .contenedor {

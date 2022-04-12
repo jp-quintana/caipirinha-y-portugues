@@ -54,6 +54,80 @@
 
 // Presentación profesor
 .presentacion-profesor {
+  &-contenedor {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+  }
+}
+.presentacion-profesor__imagen {
+  position: absolute;
+  width: 38%;
+  right: 0;
+}
+
+.presentacion-profesor__card {
+  margin-top: 20rem;
+}
+
+.presentacion-profesor__cuerpo {
+  padding: 5rem;
+}
+
+.presentacion-profesor__texto {
+  margin: 1.8rem 0rem 0rem 0rem;
+}
+
+//Podcast
+.podcast-contenedor {
+  position: relative;
+  overflow: hidden;
+  padding: 24rem 0rem;
+}
+
+.podcast__imagen {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+}
+
+.podcast__card {
+  margin-top: 8rem;
+  background: #399F3D !important;
+  color: #FFFFFF;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 3fr 1fr;
+
+  &-contenedor {
+    max-width: 40%
+  }
+}
+
+.podcast__cuerpo {
+  padding: 1.5rem 0rem 4rem 4rem;
+}
+
+.podcast__spotify {
+  font-size: 2.5rem;
+}
+
+.podcast__nombre {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.podcast__duracion {
+  margin-bottom: 0;
+  &-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.podcast__spotify-logo {
+  align-self: center;
+  height: 8.7rem;
+  width: 8.7rem;
 }
