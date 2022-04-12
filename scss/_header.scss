@@ -1,3 +1,7 @@
+.header {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .header__contenedor {
   overflow: hidden;
   &-inicio {
@@ -13,6 +17,7 @@
   display: flex;
   align-items: center;
 }
+
 .header__links {
   font-size: 2.7rem;
   font-weight: 500;

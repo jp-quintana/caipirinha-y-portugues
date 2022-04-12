@@ -1,0 +1,81 @@
+//Tarifas
+.tarifas__titulo {
+  text-align: center;
+  margin-top: 5.5rem;
+}
+
+.tarifas-contenedor {
+  padding: 4rem;
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+}
+
+.tarifas__cards {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  color: #449847;
+}
+
+.tarifas__nivel {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.tarifas__lista {
+  margin: 2rem 0rem 4rem 0rem;
+}
+
+.tarifas__items {
+  display: list-item;
+  list-style-image: url("../assets/tarifas/bullet-points-1.svg");
+  padding-inline-start: 1ch;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tarifas__botones {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tarifas__mas-informacion {
+  color: #FFFFFF;
+  background: #449847;
+  border: none;
+}
+.tarifas__precio {
+  color: #449847;
+  background: #FFFFFF;
+  border: 2px solid #449847;
+}
+.tarifas__mas-informacion,
+.tarifas__precio {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 1.5rem 0rem;
+}
+
+//Requisitos
+.requisitos {
+  padding-top: 14rem;
+}
+
+.requisitos__titulo {
+
+}
+
+.requisitos__lista {
+  margin-top: 6rem;
+}
+
+.requisitos__items {
+  font-weight: 700;
+  display: list-item;
+  list-style-image: url("../assets/tarifas/bullet-points-2.svg");
+  padding-inline-start: 1ch;
+  margin-bottom: 6rem;
+}

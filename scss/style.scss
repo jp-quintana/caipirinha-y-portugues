@@ -37,18 +37,20 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 h2 {
-  color: #449847;
   font-size: 4rem;
-  font-weight: 700;
-  & span {
-    color:#092971;
-  }
 }
 
 h3 {
-  color: #449847;
   font-size: 3rem;
+}
+
+h1, h2, h3 {
+  color: #449847;
   font-weight: 700;
   & span {
     color:#092971;
