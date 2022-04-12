@@ -1,0 +1,59 @@
+// Comienzo
+.comienzo__titulo {
+  text-align: center;
+  margin-top: 11rem;
+}
+
+.comienzo__imagen {
+  max-width: 100%;
+  margin: 8rem 0rem;;
+}
+
+// Testimonios
+.testimonios__titulo {
+  margin-top: 12rem;
+}
+
+.testimonios__cards {
+  margin-top: 8rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.testimonios__cuerpo {
+  padding: 5rem;
+}
+
+.testimonios__comillas {
+  margin-bottom: 2rem;
+}
+
+.testimonios__autor {
+  margin: 2rem 0rem 0rem 0rem;
+  color: #449847;
+  font-weight: 700;
+}
+
+.testimonios__nacionalidad {
+  font-size: 1.7rem;
+}
+
+.testimonios__boton {
+  color: #FFFFFF;
+  font-weight: 700;
+  background: #092971;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  padding: 1rem 5rem;
+  &-contenedor {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// Presentación profesor
+.presentacion-profesor {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}

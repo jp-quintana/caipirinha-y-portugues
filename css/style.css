@@ -1,0 +1,135 @@
+.header__contenedor {
+  overflow: hidden; }
+  .header__contenedor-inicio {
+    height: 100vh; }
+
+.header__logo {
+  margin-left: 7rem; }
+
+.header__nav-item {
+  display: flex;
+  align-items: center; }
+
+.header__links {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #449847 !important;
+  margin: 3rem 5rem;
+  display: flex;
+  text-align: center; }
+  .header__links-activo {
+    font-weight: 700; }
+
+.header__presentacion {
+  background: #399F3D26;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.header__texto {
+  color: #399F3D;
+  font-weight: 700; }
+  .header__texto span {
+    color: #092971; }
+
+.header__titulo {
+  font-size: 7rem; }
+
+.header__subtitulo {
+  font-size: 4rem; }
+
+.header__boton {
+  color: #092971;
+  font-weight: 700;
+  background: #F9DF4B;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  padding: 1rem 5rem; }
+
+.comienzo__titulo {
+  text-align: center;
+  margin-top: 11rem; }
+
+.comienzo__imagen {
+  max-width: 100%;
+  margin: 8rem 0rem; }
+
+.testimonios__titulo {
+  margin-top: 12rem; }
+
+.testimonios__cards {
+  margin-top: 8rem;
+  display: flex;
+  gap: 5rem; }
+
+.testimonios__cuerpo {
+  padding: 5rem; }
+
+.testimonios__comillas {
+  margin-bottom: 2rem; }
+
+.testimonios__autor {
+  margin: 2rem 0rem 0rem 0rem;
+  color: #449847;
+  font-weight: 700; }
+
+.testimonios__nacionalidad {
+  font-size: 1.7rem; }
+
+.testimonios__boton {
+  color: #FFFFFF;
+  font-weight: 700;
+  background: #092971;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 5rem;
+  padding: 1rem 5rem; }
+  .testimonios__boton-contenedor {
+    display: flex;
+    justify-content: center; }
+
+.presentacion-profesor {
+  display: grid;
+  grid-template-columns: 60% 40%; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px*/ }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #FFFFFF; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+h2 {
+  color: #449847;
+  font-size: 4rem;
+  font-weight: 700; }
+  h2 span {
+    color: #092971; }
+
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto; }
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px; }
