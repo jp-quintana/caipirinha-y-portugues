@@ -8,8 +8,7 @@
 
 .tarifas-contenedor {
   padding: 4rem;
-  display: grid;
-  grid-template-rows: 10% 70% 20%;
+  height: 500px;
 }
 
 .tarifas__cards {
@@ -17,10 +16,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  color: #449847;
 }
 
 .tarifas__nivel {
+
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -40,7 +39,10 @@
 .tarifas__botones {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   gap: 2rem;
+  width: 228px;
+  margin-bottom: 20px;
 }
 
 .tarifas__mas-informacion {
@@ -66,9 +68,11 @@
   padding-top: 14rem;
 }
 
+/*
 .requisitos__titulo {
 
 }
+*/
 
 .requisitos__lista {
   margin-top: 6rem;

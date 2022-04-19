@@ -13,35 +13,29 @@
 </head>
 <body>
   <header class="header header__navbar header__contenedor">
-    <nav class="navbar navbar-expand-md navbar-light">
-      <a href="../index.html" class="navbar-brand">
-        <img class="header__logo" src="../assets/header/logo-caipirinha.png" alt="">
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggler="collapse"
-        data-bs-target="#toggleMobileMenu"
-        aria-controls="toggleMobileMenu"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="toggleMobileMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="header__nav-item">
-            <a href="../index.html" class="header__links nav-link ">Home</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="tarifas.html" class="header__links nav-link">Tarifas</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="sobre-nosotros.html" class="header__links nav-link header__links-activo">Sobre nosotros</a>
-          </li>
-        </ul>
+    <nav class="header__navbar navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+              <img class="header__logo"  src="../assets/header/logo-caipirinha.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="header__nav-item">
+                      <a class="nav-link active header__links" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="header__nav-item">
+                      <a class="nav-link active header__links" href="./tarifas.html">Tarifas</a>
+                  </li>
+                  <li class="header__nav-item">
+                      <a class="nav-link active header__links header__links-activo" href="sobre-nosotros.html">Sobre nosotros</a>
+                  </li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </nav>
   </header>
 
   <section class="sobre-nosotros">
