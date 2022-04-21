@@ -1,39 +1,88 @@
 //Sobre nosotros
 .sobre-nosotros {
   padding: 5.5rem 0rem 10rem 0rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem 0rem 6rem 0rem;
+  }
 }
 
 .sobre-nosotros__titulo {
   text-align: center;
   margin-bottom: 8rem;
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+
+  }
 }
 
 .sobre-nosotros-contenedor {
   display: grid;
   align-items: center;
   grid-template-columns: 45% 55%;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+.sobre-nostros__imagen {
+  @media (max-width: 768px) {
+    width: 70%;
+  }
 }
 
 .sobre-nosotros__presentacion {
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
 
 .sobre-nosotros__texto {
   font-size: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 5rem;
+  }
 }
 
 //Nuestro Objetivo
 .nuestro-objetivo {
   padding: 7rem 0rem;
+
+  @media (max-width: 768px) {
+    padding: 6rem 0rem;
+  }
 }
 
 .nuestro-objetivo__titulo {
   margin-bottom: 4rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 }
 
 .nuestro-objetivo__texto {
   color: #449847;
   font-size: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 5rem;
+  }
 }
