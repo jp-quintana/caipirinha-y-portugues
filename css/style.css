@@ -1,25 +1,59 @@
 .header__navbar {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+  @media (max-width: 768px) {
+    .header__navbar {
+      box-shadow: none; } }
+
+@media (max-width: 768px) {
+  .header__navbar-home {
+    background: #399F3D26; } }
 
 .header__contenedor {
   overflow: hidden; }
   .header__contenedor-inicio {
     height: 100vh; }
+    @media (max-width: 768px) {
+      .header__contenedor-inicio {
+        height: auto; } }
 
-.header__logo {
+.header__logo-link {
   margin-left: 7rem; }
+
+@media (max-width: 768px) {
+  .header__logo-home {
+    display: none; } }
+
+.header__navbar-toggler {
+  margin: 2.5rem 1.5rem 2.5rem 0;
+  color: #3534BE !important;
+  border: none; }
+  .header__navbar-toggler-icon {
+    height: 4rem;
+    width: 4rem; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../assets/header/iconoir_menu.svg"); }
+
+.collapse {
+  position: relative;
+  z-index: 1; }
 
 .header__nav-item {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 .header__links {
   font-size: 2.7rem;
   font-weight: 500;
   color: #449847 !important;
   margin: 3rem 5rem;
-  display: flex;
   text-align: center; }
+  @media (max-width: 768px) {
+    .header__links {
+      color: #3534BE !important;
+      font-size: 1.8rem;
+      margin: 1rem 0; } }
   .header__links-activo {
     font-weight: 700; }
 
@@ -50,10 +84,6 @@
   border-radius: 1rem;
   margin-top: 5rem;
   padding: 1rem 5rem; }
-
-@media (min-width: 1200px) {
-  .navbar-brand {
-    margin-right: 400px; } }
 
 .comienzo {
   padding-top: 11rem; }
