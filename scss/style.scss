@@ -19,6 +19,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   color: #092971;
+  overflow-x: hidden;
 ;
   font-weight: 400;
   font-size: 2rem;
@@ -71,6 +72,9 @@ h1, h2, h3 {
 }
 
 .divider-general {
-  display: block;
-  margin: 0 auto
+
+  position:relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
 }
