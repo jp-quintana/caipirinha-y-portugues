@@ -1,9 +1,16 @@
 //Tarifas
 .tarifas {
   padding-top: 5.5rem;
+
+  @media (max-width: 768px) {
+    padding-top: 3rem;
+  }
 }
 .tarifas__titulo {
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
 }
 
 .tarifas-contenedor {
@@ -68,14 +75,19 @@
   padding-top: 14rem;
 }
 
-/*
-.requisitos__titulo {
 
+.requisitos__titulo {
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
 }
-*/
 
 .requisitos__lista {
   margin-top: 6rem;
+
+  @media (max-width: 768px) {
+    margin-top: 3rem;
+  }
 }
 
 .requisitos__items {
@@ -83,5 +95,10 @@
   display: list-item;
   list-style-image: url("../assets/tarifas/bullet-points-2.svg");
   padding-inline-start: 1ch;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+    list-style-image: url("../assets/tarifas/bullet-points-2-responsive.svg");
+  }
 }
