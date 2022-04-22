@@ -17,7 +17,7 @@
         height: auto; } }
 
 .header__logo-link {
-  margin-left: 7rem; }
+  margin-left: 3rem; }
 
 @media (max-width: 768px) {
   .header__logo-home {
@@ -125,16 +125,53 @@
 
 .comienzo {
   padding-top: 11rem; }
+  @media (max-width: 768px) {
+    .comienzo {
+      padding-top: 1rem; } }
 
 .comienzo__titulo {
   text-align: center; }
+  @media (max-width: 768px) {
+    .comienzo__titulo {
+      font-size: 2.5rem; } }
+  .comienzo__titulo span {
+    color: inherit; }
+    @media (max-width: 768px) {
+      .comienzo__titulo span {
+        display: block;
+        margin-top: .5rem;
+        font-size: 2rem; } }
 
 .comienzo__imagen {
   max-width: 100%;
   margin: 8rem 0rem; }
+  @media (max-width: 768px) {
+    .comienzo__imagen {
+      display: none; } }
+  .comienzo__imagen-responsive {
+    display: none;
+    max-width: 80%;
+    margin: 5rem auto 0 auto; }
+    @media (max-width: 768px) {
+      .comienzo__imagen-responsive {
+        display: block; } }
 
 .testimonios {
   padding-top: 12rem; }
+
+@media (max-width: 768px) {
+  .testimonios__titulo {
+    display: none; } }
+
+.testimonios__titulo-responsive {
+  display: none; }
+  @media (max-width: 768px) {
+    .testimonios__titulo-responsive {
+      display: block;
+      text-align: center;
+      font-size: 2rem; }
+      .testimonios__titulo-responsive span {
+        display: block; } }
 
 .testimonios__cards {
   margin-top: 8rem;
@@ -166,6 +203,9 @@
   .testimonios__boton-contenedor {
     display: flex;
     justify-content: center; }
+  @media (max-width: 768px) {
+    .testimonios__boton {
+      background: #449847; } }
 
 .presentacion-profesor {
   padding-top: 20rem; }
