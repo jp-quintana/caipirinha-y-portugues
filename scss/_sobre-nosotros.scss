@@ -11,7 +11,8 @@
   text-align: center;
   margin-bottom: 8rem;
 
-  @media (max-width: 768px) {
+
+  @media (max-width: 480px) {
     font-size: 3rem;
     margin-bottom: 5rem;
 
@@ -23,14 +24,19 @@
   align-items: center;
   grid-template-columns: 45% 55%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
+    gap: 6rem;
+  }
+
+  @media (max-width: 768px) {
     gap: 3rem;
   }
 }
 
 .sobre-nostros__imagen {
+  max-width: 100%;
   @media (max-width: 768px) {
     width: 70%;
   }
@@ -41,16 +47,21 @@
   font-weight: 700;
   margin-bottom: 2rem;
 
-  @media (max-width: 768px) {
-    font-size: 1.8rem;
+  @media (max-width: 1200px) {
     text-align: center;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.8rem;
   }
 }
 
 .sobre-nosotros__texto {
   font-size: 3rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    text-align: center;
+  }
+  @media (max-width: 480px) {
     font-size: 1.4rem;
     text-align: center;
     margin: 0 5rem;
@@ -69,7 +80,10 @@
 .nuestro-objetivo__titulo {
   margin-bottom: 4rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    text-align: center;
+  }
+  @media (max-width: 480) {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 2rem;
@@ -80,9 +94,12 @@
   color: #449847;
   font-size: 3rem;
 
-  @media (max-width: 768px) {
-    font-size: 1.4rem;
+  @media (max-width: 1200px) {
     text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.4rem;
     margin: 0 5rem;
   }
 }
