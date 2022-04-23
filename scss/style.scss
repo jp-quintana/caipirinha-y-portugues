@@ -56,6 +56,10 @@ h1, h2, h3 {
   }
 }
 
+.main {
+  position: relative;
+}
+
 .contenedor {
   max-width: 120rem;
   width: 90%;
@@ -78,5 +82,18 @@ h1, h2, h3 {
   &-contenedor {
     overflow-x: hidden;
 
+  }
+}
+
+.whatsapp-boton {
+  height: 10rem;
+  width: 10rem;
+  z-index: 1;
+  position: sticky;
+  top: 90%;
+  left: 95%;
+
+  @media (max-width: 768px) {
+    display: none;
   }
 }
