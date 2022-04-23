@@ -235,26 +235,65 @@
     .testimonios__boton {
       background: #449847; } }
 
-.presentacion-profesor {
-  padding-top: 20rem; }
-  .presentacion-profesor-contenedor {
-    position: relative; }
+@media (max-width: 768px) {
+  .presentacion-profesor {
+    position: relative;
+    overflow-x: hidden; } }
+
+.presentacion-profesor-contenedor {
+  position: relative;
+  padding-top: 25rem; }
+  @media (max-width: 768px) {
+    .presentacion-profesor-contenedor {
+      position: static; } }
 
 .presentacion-profesor__imagen {
   position: absolute;
-  width: 40%;
+  width: 55rem;
   right: 0;
   top: 0;
-  transform: translateY(-50%); }
+  z-index: -1; }
+  @media (max-width: 1200px) {
+    .presentacion-profesor__imagen {
+      top: 5%; } }
+  @media (max-width: 992px) {
+    .presentacion-profesor__imagen {
+      width: 45rem; } }
+  @media (max-width: 768px) {
+    .presentacion-profesor__imagen {
+      top: 10%;
+      right: -5%;
+      width: 40rem; } }
+  @media (max-width: 480px) {
+    .presentacion-profesor__imagen {
+      top: 10%;
+      right: -25%;
+      width: 35rem; } }
 
 .presentacion-profesor__card {
   max-width: 60%; }
+  @media (max-width: 480px) {
+    .presentacion-profesor__card {
+      max-width: 75%; } }
 
 .presentacion-profesor__cuerpo {
   padding: 5rem; }
+  @media (max-width: 768px) {
+    .presentacion-profesor__cuerpo {
+      padding: 2rem; } }
+  @media (max-width: 480px) {
+    .presentacion-profesor__cuerpo {
+      padding: 1.5rem; } }
+
+@media (max-width: 768px) {
+  .presentacion-profesor__titulo {
+    font-size: 2rem; } }
 
 .presentacion-profesor__texto {
   margin: 1.8rem 0rem 0rem 0rem; }
+  @media (max-width: 768px) {
+    .presentacion-profesor__texto {
+      font-size: 1.4rem; } }
 
 .podcast-contenedor {
   position: relative;
