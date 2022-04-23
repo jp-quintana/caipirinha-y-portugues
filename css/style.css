@@ -297,8 +297,17 @@
 
 .podcast-contenedor {
   position: relative;
-  overflow: hidden;
   padding: 24rem 0rem; }
+  @media (max-width: 768px) {
+    .podcast-contenedor {
+      padding: 15rem 0rem; } }
+  @media (max-width: 480px) {
+    .podcast-contenedor {
+      padding: 6rem 0rem; } }
+
+@media (max-width: 768px) {
+  .podcast__titulo {
+    font-size: 2rem; } }
 
 .podcast__imagen {
   position: absolute;
@@ -311,19 +320,39 @@
   background: #399F3D !important;
   color: #FFFFFF;
   display: grid;
-  grid-template-columns: 3fr 1fr; }
-  .podcast__card-contenedor {
-    max-width: 40%; }
+  grid-template-columns: 3fr 1fr;
+  max-width: 40%; }
+  @media (max-width: 1024px) {
+    .podcast__card {
+      max-width: 60%; } }
+  @media (max-width: 768px) {
+    .podcast__card {
+      max-width: 80%;
+      margin-top: 4rem;
+      grid-template-columns: 3fr 1fr; } }
+  @media (max-width: 768px) {
+    .podcast__card-contenedor {
+      display: flex;
+      justify-content: center; } }
 
 .podcast__cuerpo {
   padding: 1.5rem 0rem 4rem 4rem; }
+  @media (max-width: 480px) {
+    .podcast__cuerpo {
+      padding-left: 2rem; } }
 
 .podcast__spotify {
   font-size: 2.5rem; }
+  @media (max-width: 480px) {
+    .podcast__spotify {
+      font-size: 1.8rem; } }
 
 .podcast__nombre {
   font-size: 3.5rem;
   font-weight: 700; }
+  @media (max-width: 480px) {
+    .podcast__nombre {
+      font-size: 2rem; } }
 
 .podcast__duracion {
   margin-bottom: 0; }
@@ -331,11 +360,17 @@
     display: flex;
     align-items: center;
     gap: 1rem; }
+  @media (max-width: 480px) {
+    .podcast__duracion {
+      font-size: 1.4rem; } }
 
 .podcast__spotify-logo {
   align-self: center;
   height: 8.7rem;
   width: 8.7rem; }
+  @media (max-width: 768px) {
+    .podcast__spotify-logo {
+      font-size: 1.4rem; } }
 
 .tarifas {
   padding-top: 5.5rem; }
