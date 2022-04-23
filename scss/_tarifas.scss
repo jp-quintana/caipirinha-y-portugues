@@ -72,13 +72,13 @@
 
 //Requisitos
 .requisitos {
-  padding-top: 14rem;
+  padding: 14rem 0 6rem 0;
 }
 
 
 .requisitos__titulo {
   @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -98,7 +98,7 @@
   margin-bottom: 3rem;
 
   @media (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     list-style-image: url("../assets/tarifas/bullet-points-2-responsive.svg");
   }
 }

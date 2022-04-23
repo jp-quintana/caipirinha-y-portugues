@@ -360,11 +360,11 @@
   padding: 1.5rem 0rem; }
 
 .requisitos {
-  padding-top: 14rem; }
+  padding: 14rem 0 6rem 0; }
 
 @media (max-width: 768px) {
   .requisitos__titulo {
-    font-size: 1.6rem; } }
+    font-size: 2rem; } }
 
 .requisitos__lista {
   margin-top: 6rem; }
@@ -380,7 +380,7 @@
   margin-bottom: 3rem; }
   @media (max-width: 768px) {
     .requisitos__items {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       list-style-image: url("../assets/tarifas/bullet-points-2-responsive.svg"); } }
 
 .sobre-nosotros {
