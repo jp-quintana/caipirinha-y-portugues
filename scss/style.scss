@@ -97,3 +97,32 @@ h1, h2, h3 {
     display: none;
   }
 }
+
+// .slider {
+//   position: relative;
+//   // overflow-x: auto;
+//   // overflow: hidden;
+//   // user-select: none;
+//
+// }
+//
+// .innerSlider {
+//   position: absolute;
+//   pointer-events: none;
+// }
+
+.swiper-container {
+  height: 90%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 32rem;
+  height: inherit;
+  filter: blur(.4rem);
+}
+
+.swiper-slide-active {
+  filter: blur(0);
+}

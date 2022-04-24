@@ -1,11 +1,13 @@
 //Tarifas
 .tarifas {
   padding-top: 5.5rem;
+  overflow-x: hidden;
 
   @media (max-width: 768px) {
     padding-top: 3rem;
   }
 }
+
 .tarifas__titulo {
   text-align: center;
   @media (max-width: 768px) {
@@ -13,33 +15,53 @@
   }
 }
 
-.tarifas-contenedor {
-  padding: 4rem;
-  height: 50rem;
+.tarifas__cards {
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  // gap: 6rem;
+  min-height: 100% !important;
+
+
+
+  &-contenedor {
+    margin-top: 10rem;
+    height: 66rem;
+
+    @media (max-width: 768px) {
+      margin-top: 6rem;
+    }
+
+  }
+
+  // & img {
+  //   position: absolute;
+  //   z-index: 1;
+  // }
 }
 
-.tarifas__cards {
-  margin-top: 10rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+.tarifas__card {
+  width: 32rem;
+}
+
+.tarifas__contenido {
+  padding: 2rem 4rem 0 4rem;
+  height: 100%;
 }
 
 .tarifas__nivel {
-
   font-size: 2.5rem;
   font-weight: 700;
 }
 
 .tarifas__lista {
-  margin: 2rem 0rem 4rem 0rem;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 .tarifas__items {
   display: list-item;
   list-style-image: url("../assets/tarifas/bullet-points-1.svg");
   padding-inline-start: 1ch;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
@@ -49,8 +71,8 @@
   justify-content: flex-end;
   gap: 2rem;
   //TODO a chequear el width, pasarlo a %;
-  width: 228px;
-  margin-bottom: 20px;
+  width: 80%;
+  margin-bottom: 2rem;
 }
 
 .tarifas__mas-informacion {
@@ -65,7 +87,7 @@
 }
 .tarifas__mas-informacion,
 .tarifas__precio {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
   border-radius: 5px;
   padding: 1.5rem 0rem;
@@ -73,7 +95,7 @@
 
 //Requisitos
 .requisitos {
-  padding: 14rem 0 6rem 0;
+  padding: 8rem 0 6rem 0;
 }
 
 
