@@ -1,4 +1,4 @@
-var swiperHome = new Swiper(".swiper-container-home", {
+let swiperHome = new Swiper(".swiper-container-home", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
@@ -13,7 +13,7 @@ var swiperHome = new Swiper(".swiper-container-home", {
   loop: true,
 });
 
-var swiperTarifas = new Swiper(".swiper-container-tarifas", {
+let swiperTarifas = new Swiper(".swiper-container-tarifas", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,

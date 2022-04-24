@@ -73,17 +73,26 @@
   //TODO a chequear el width, pasarlo a %;
   width: 80%;
   margin-bottom: 2rem;
+
+  & a {
+    width: 100%;
+  }
 }
 
 .tarifas__mas-informacion {
   color: #FFFFFF;
   background: #449847;
   border: none;
+  width: inherit;
+
 }
+
 .tarifas__precio {
   color: #449847;
   background: #FFFFFF;
   border: 2px solid #449847;
+  width: inherit;
+
 }
 .tarifas__mas-informacion,
 .tarifas__precio {

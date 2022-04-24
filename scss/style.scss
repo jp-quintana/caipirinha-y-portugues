@@ -92,6 +92,7 @@ h1, h2, h3 {
   position: sticky;
   top: 90%;
   left: 95%;
+  opacity: 90%;
 
   @media (max-width: 768px) {
     display: none;

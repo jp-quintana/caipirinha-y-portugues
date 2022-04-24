@@ -462,16 +462,20 @@
   gap: 2rem;
   width: 80%;
   margin-bottom: 2rem; }
+  .tarifas__botones a {
+    width: 100%; }
 
 .tarifas__mas-informacion {
   color: #FFFFFF;
   background: #449847;
-  border: none; }
+  border: none;
+  width: inherit; }
 
 .tarifas__precio {
   color: #449847;
   background: #FFFFFF;
-  border: 2px solid #449847; }
+  border: 2px solid #449847;
+  width: inherit; }
 
 .tarifas__mas-informacion,
 .tarifas__precio {
@@ -732,7 +736,8 @@ h1, h2, h3 {
   z-index: 1;
   position: sticky;
   top: 90%;
-  left: 95%; }
+  left: 95%;
+  opacity: 90%; }
   @media (max-width: 768px) {
     .whatsapp-boton {
       display: none; } }
