@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!--Bootstrap 5-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> <!--Swiper-->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -73,47 +74,131 @@
       <div class="contenedor">
         <h2 class="testimonios__titulo">Testimonios de <span>nuestros</span> alumnos</h2>
         <h2 class="testimonios__titulo-responsive">Testimonios de <span>nuestros alumnos</span></h2>
-        <div class="testimonios__cards">
-          <div class="testimonios__testimonio card">
-            <div class="testimonios__cuerpo">
-              <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
-              <p class="testimonios__mensaje">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fuga velit iusto, vitae ullam quod molestias eius animi, numquam expedita voluptatibus delectus odio similique harum maxime ab assumenda accusantium, corporis?
-              </p>
-              <p class="testimonios__autor">
-                Nombre Apellido
-              </p>
-              <p class="testimonios__nacionalidad">
-                Nacionalidad
-              </p>
-            </div>
-          </div>
-          <div class="testimonios__card card">
-            <div class="testimonios__cuerpo">
-              <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
-              <p class="testimonios__mensaje">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fuga velit iusto, vitae ullam quod molestias eius animi, numquam expedita voluptatibus delectus odio similique harum maxime ab assumenda accusantium, corporis?
-              </p>
-              <p class="testimonios__autor">
-                Nombre Apellido
-              </p>
-              <p class="testimonios__nacionalidad">
-                Nacionalidad
-              </p>
-            </div>
-          </div>
-          <div class="testimonios__testimonio card">
-            <div class="testimonios__cuerpo">
-              <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
-              <p class="testimonios__mensaje">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fuga velit iusto, vitae ullam quod molestias eius animi, numquam expedita voluptatibus delectus odio similique harum maxime ab assumenda accusantium, corporis?
-              </p>
-              <p class="testimonios__autor">
-                Nombre Apellido
-              </p>
-              <p class="testimonios__nacionalidad">
-                Nacionalidad
-              </p>
+
+        <div class="testimonios__cards-contenedor">
+          <div class="swiper-container-home">
+            <div class="testimonios__cards swiper-wrapper">
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Muy buen curso, espero continuar este año con el. Gracias carlo por tus buenas vibraciones.
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      Maria Emilia Deibe
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      @mariaemiliadeibe
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Gracias... yo amo tus clases Carlo. Hasta el  año que viene!
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      @Mónica G. Laudicina
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      molaudicina
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Muy Bueno😍. En 4 meses yo  mejore  mucho mi portugues  que estaba desordenado 😅😄😄 @caipirinhayportugues me ha aportado la practica que me faltaba y la explicación teórica de muchas de las dudas que existian en mi relación con el idioma, y su uso. Las estrellitas para el profe....responsabilidad⭐, organización⭐, y gusto por lo que hace⭐, estrellita doble por tener la respuesta (y paciencia) a todos mis "por que....?", " que pasa si....", "y entonces...."
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      Andrea Diaz
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      @and.d_other_self
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Súper contenta con todas las clases!! 🙌❤️
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      Amparo Hernández
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      @amparo.hernandezz
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Estoy muy contenta con las clases, el profesor, las compañeras y la modalidad son muy divertidas.. Vamos por mas 💪🏻❤️😂
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      florida___kilos
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      @florida___kilos
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Muy lindo el cursado 💛 ya tengo ganas de poder ir a Brasil y falar portugues 😂🇧🇷
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      Sofi Balastegui
+                    </p>
+                    <p class="testimonios__nacionalidad">
+                      @sofibalastegui
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonios__card card swiper-slide">
+                <div class="testimonios__cuerpo">
+                  <img src="assets/home/comillas.jpg" alt="" class="testimonios__comillas">
+                  <p class="testimonios__mensaje">
+                    Quiero decir que las clases parecen muy divertidas y dinámicas. sin dudas me divertí mucho. siento que hoy tengo algunas habilidades que me dan confianza y por eso, adoraría continuar aprendiendo este lindo idioma. por un lado encuentro un grupo maravilloso y generoso con expectativas semejantes a las mías, por otro lado, gracias carlo por tus valiosas contribuciones, sos un gran profesor.
+
+                  </p>
+                  <div class="testimonios__autor-contenedor">
+                    <p class="testimonios__autor">
+                      MARCELA
+                    </p>
+                    <p class="testimonios__nacionalidad">
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -192,7 +277,10 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+  <script src="./main.js" charset="utf-8"></script>
+
 </body>
 </html>

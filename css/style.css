@@ -188,7 +188,8 @@
         display: block; } }
 
 .testimonios {
-  padding-top: 12rem; }
+  padding-top: 12rem;
+  overflow-x: hidden; }
 
 @media (max-width: 768px) {
   .testimonios__titulo {
@@ -204,21 +205,32 @@
       .testimonios__titulo-responsive span {
         display: block; } }
 
-.testimonios__cards {
+.testimonios__cards-contenedor {
   margin-top: 8rem;
-  display: flex;
-  gap: 5rem; }
+  height: 52rem; }
+  @media (max-width: 768px) {
+    .testimonios__cards-contenedor {
+      margin-top: 6rem; } }
 
 .testimonios__cuerpo {
-  padding: 5rem; }
+  margin: 2.5rem;
+  display: grid;
+  grid-template-rows: 8% 80% 12%;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
 
-.testimonios__comillas {
-  margin-bottom: 2rem; }
+.testimonios__mensaje {
+  font-size: 1.5rem;
+  line-height: 2rem; }
 
 .testimonios__autor {
-  margin: 2rem 0rem 0rem 0rem;
   color: #449847;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 0; }
+  .testimonios__autor-contenedor {
+    line-height: 2rem; }
 
 .testimonios__nacionalidad {
   font-size: 1.7rem; }
@@ -236,7 +248,9 @@
     justify-content: center; }
   @media (max-width: 768px) {
     .testimonios__boton {
-      background: #449847; } }
+      background: #449847;
+      margin-top: 2rem;
+      font-size: 1.6rem; } }
 
 @media (max-width: 768px) {
   .presentacion-profesor {
@@ -416,17 +430,12 @@
     .tarifas__titulo {
       font-size: 3rem; } }
 
-.tarifas__cards {
-  min-height: 100% !important; }
-  .tarifas__cards-contenedor {
-    margin-top: 10rem;
-    height: 66rem; }
-    @media (max-width: 768px) {
-      .tarifas__cards-contenedor {
-        margin-top: 6rem; } }
-
-.tarifas__card {
-  width: 32rem; }
+.tarifas__cards-contenedor {
+  margin-top: 10rem;
+  height: 66rem; }
+  @media (max-width: 768px) {
+    .tarifas__cards-contenedor {
+      margin-top: 6rem; } }
 
 .tarifas__contenido {
   padding: 2rem 4rem 0 4rem;
@@ -728,7 +737,8 @@ h1, h2, h3 {
     .whatsapp-boton {
       display: none; } }
 
-.swiper-container {
+.swiper-container-home,
+.swiper-container-tarifas {
   height: 90%; }
 
 .swiper-slide {
@@ -740,3 +750,5 @@ h1, h2, h3 {
 
 .swiper-slide-active {
   filter: blur(0); }
+  .swiper-slide-active:hover {
+    margin-bottom: 1rem; }

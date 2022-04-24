@@ -111,7 +111,8 @@ h1, h2, h3 {
 //   pointer-events: none;
 // }
 
-.swiper-container {
+.swiper-container-home,
+.swiper-container-tarifas {
   height: 90%;
 }
 
@@ -125,4 +126,8 @@ h1, h2, h3 {
 
 .swiper-slide-active {
   filter: blur(0);
+
+  &:hover {
+    margin-bottom: 1rem;
+  }
 }
