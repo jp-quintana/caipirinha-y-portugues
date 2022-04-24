@@ -15,7 +15,7 @@
 
 .tarifas-contenedor {
   padding: 4rem;
-  height: 500px;
+  height: 50rem;
 }
 
 .tarifas__cards {
@@ -48,6 +48,7 @@
   flex-direction: column;
   justify-content: flex-end;
   gap: 2rem;
+  //TODO a chequear el width, pasarlo a %;
   width: 228px;
   margin-bottom: 20px;
 }
